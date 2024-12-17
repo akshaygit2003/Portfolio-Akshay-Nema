@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Akshay-Nema/static/css/main.35cc44a0.css",
+    "main.js": "/Portfolio-Akshay-Nema/static/js/main.a947d998.js",
+    "static/js/787.9b837515.chunk.js": "/Portfolio-Akshay-Nema/static/js/787.9b837515.chunk.js",
+    "static/media/home.jpg": "/Portfolio-Akshay-Nema/static/media/home.894c384c8e62fbd36108.jpg",
+    "static/media/passtool.jpg": "/Portfolio-Akshay-Nema/static/media/passtool.131faed23a03f4405c7e.jpg",
+    "static/media/business.png": "/Portfolio-Akshay-Nema/static/media/business.fe92209a8fecd26d10ad.png",
+    "static/media/Thumbs.db": "/Portfolio-Akshay-Nema/static/media/Thumbs.735170b30af6b4c4247f.db",
+    "static/media/Cars.jpg": "/Portfolio-Akshay-Nema/static/media/Cars.177c64d76dc12d97a4f9.jpg",
+    "static/media/businessModal1.jpg": "/Portfolio-Akshay-Nema/static/media/businessModal1.5753a36457c43b1554b8.jpg",
+    "static/media/Food Website.jpg": "/Portfolio-Akshay-Nema/static/media/Food Website.c16e0b4a29d76774f57f.jpg",
+    "static/media/foodmenu.jpg": "/Portfolio-Akshay-Nema/static/media/foodmenu.c9feeef1975d389a8880.jpg",
+    "static/media/Paypal.jpg": "/Portfolio-Akshay-Nema/static/media/Paypal.4af390f81fdd3a97fbc1.jpg",
+    "static/media/Resume.pdf": "/Portfolio-Akshay-Nema/static/media/Resume.89027cbbc755407d503b.pdf",
+    "static/media/Task Management Dashboard.jpg": "/Portfolio-Akshay-Nema/static/media/Task Management Dashboard.7162d97fd8feb3671699.jpg",
+    "static/media/task mngmt.jpg": "/Portfolio-Akshay-Nema/static/media/task mngmt.7004f67aa0a0d1198ea6.jpg",
+    "static/media/Text Wizards.jpg": "/Portfolio-Akshay-Nema/static/media/Text Wizards.a5ba0b2f3f41646a9b43.jpg",
+    "static/media/retro car.jpg": "/Portfolio-Akshay-Nema/static/media/retro car.2665add01d987121d05f.jpg",
+    "static/media/PasswordGenerator.jpg": "/Portfolio-Akshay-Nema/static/media/PasswordGenerator.21091afb9f61e1f8a654.jpg",
+    "static/media/txt analyser tool.jpeg": "/Portfolio-Akshay-Nema/static/media/txt analyser tool.37432f8756f775aa3255.jpeg",
+    "static/media/paypal mod.jpg": "/Portfolio-Akshay-Nema/static/media/paypal mod.4b8ac84009a3555358d8.jpg",
+    "static/media/logo.jpg": "/Portfolio-Akshay-Nema/static/media/logo.fe3dc7fdd80a6a99a48a.jpg",
+    "index.html": "/Portfolio-Akshay-Nema/index.html",
+    "main.35cc44a0.css.map": "/Portfolio-Akshay-Nema/static/css/main.35cc44a0.css.map",
+    "main.a947d998.js.map": "/Portfolio-Akshay-Nema/static/js/main.a947d998.js.map",
+    "787.9b837515.chunk.js.map": "/Portfolio-Akshay-Nema/static/js/787.9b837515.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35cc44a0.css",
+    "static/js/main.a947d998.js"
+  ]
+}
