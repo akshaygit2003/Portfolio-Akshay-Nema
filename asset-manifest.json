@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Akshay-Nema/static/css/main.bd44e43b.css",
-    "main.js": "/Portfolio-Akshay-Nema/static/js/main.0a60bcce.js",
+    "main.css": "/Portfolio-Akshay-Nema/static/css/main.801ba789.css",
+    "main.js": "/Portfolio-Akshay-Nema/static/js/main.f6f0778d.js",
     "static/js/453.4faca061.chunk.js": "/Portfolio-Akshay-Nema/static/js/453.4faca061.chunk.js",
     "static/media/expensemodel.jpg": "/Portfolio-Akshay-Nema/static/media/expensemodel.ac28d926b2ef90ba9bb1.jpg",
     "static/media/home.jpg": "/Portfolio-Akshay-Nema/static/media/home.894c384c8e62fbd36108.jpg",
@@ -30,12 +30,12 @@
     "static/media/paypal mod.jpg": "/Portfolio-Akshay-Nema/static/media/paypal mod.4b8ac84009a3555358d8.jpg",
     "static/media/logo.jpg": "/Portfolio-Akshay-Nema/static/media/logo.fe3dc7fdd80a6a99a48a.jpg",
     "index.html": "/Portfolio-Akshay-Nema/index.html",
-    "main.bd44e43b.css.map": "/Portfolio-Akshay-Nema/static/css/main.bd44e43b.css.map",
-    "main.0a60bcce.js.map": "/Portfolio-Akshay-Nema/static/js/main.0a60bcce.js.map",
+    "main.801ba789.css.map": "/Portfolio-Akshay-Nema/static/css/main.801ba789.css.map",
+    "main.f6f0778d.js.map": "/Portfolio-Akshay-Nema/static/js/main.f6f0778d.js.map",
     "453.4faca061.chunk.js.map": "/Portfolio-Akshay-Nema/static/js/453.4faca061.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd44e43b.css",
-    "static/js/main.0a60bcce.js"
+    "static/css/main.801ba789.css",
+    "static/js/main.f6f0778d.js"
   ]
 }
