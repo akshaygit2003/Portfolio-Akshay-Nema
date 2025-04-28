@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Akshay-Nema/static/css/main.801ba789.css",
-    "main.js": "/Portfolio-Akshay-Nema/static/js/main.f6f0778d.js",
+    "main.js": "/Portfolio-Akshay-Nema/static/js/main.f3e8c8ee.js",
     "static/js/453.4faca061.chunk.js": "/Portfolio-Akshay-Nema/static/js/453.4faca061.chunk.js",
     "static/media/expensemodel.jpg": "/Portfolio-Akshay-Nema/static/media/expensemodel.ac28d926b2ef90ba9bb1.jpg",
     "static/media/home.jpg": "/Portfolio-Akshay-Nema/static/media/home.894c384c8e62fbd36108.jpg",
@@ -15,11 +15,14 @@
     "static/media/Food Website.jpg": "/Portfolio-Akshay-Nema/static/media/Food Website.c16e0b4a29d76774f57f.jpg",
     "static/media/foodmenu.jpg": "/Portfolio-Akshay-Nema/static/media/foodmenu.c9feeef1975d389a8880.jpg",
     "static/media/Paypal.jpg": "/Portfolio-Akshay-Nema/static/media/Paypal.4af390f81fdd3a97fbc1.jpg",
-    "static/media/Akshay_Nema_Resume.pdf": "/Portfolio-Akshay-Nema/static/media/Akshay_Nema_Resume.99996fd16884b00efe93.pdf",
+    "static/media/UpdatedResume.pdf": "/Portfolio-Akshay-Nema/static/media/UpdatedResume.d913b79afede7236f4fb.pdf",
+    "static/media/EnigmaSliderfinal.jpg": "/Portfolio-Akshay-Nema/static/media/EnigmaSliderfinal.ec27cc34a4857f4756e6.jpg",
     "static/media/interiorfinal.png": "/Portfolio-Akshay-Nema/static/media/interiorfinal.02f2f7772ce670326230.png",
+    "static/media/SkillNotionSlider.jpg": "/Portfolio-Akshay-Nema/static/media/SkillNotionSlider.0a118c05b66aca104ffb.jpg",
     "static/media/budgetbuddy.jpg": "/Portfolio-Akshay-Nema/static/media/budgetbuddy.09e3923de91401e151a6.jpg",
     "static/media/Task Management Dashboard.jpg": "/Portfolio-Akshay-Nema/static/media/Task Management Dashboard.7162d97fd8feb3671699.jpg",
     "static/media/task mngmt.jpg": "/Portfolio-Akshay-Nema/static/media/task mngmt.7004f67aa0a0d1198ea6.jpg",
+    "static/media/EnigmaModal.jpg": "/Portfolio-Akshay-Nema/static/media/EnigmaModal.8f33665d1fa270d4c4a6.jpg",
     "static/media/Text Wizards.jpg": "/Portfolio-Akshay-Nema/static/media/Text Wizards.a5ba0b2f3f41646a9b43.jpg",
     "static/media/budget.jpg": "/Portfolio-Akshay-Nema/static/media/budget.fc150bb8e59c76f03cff.jpg",
     "static/media/interior.jpg": "/Portfolio-Akshay-Nema/static/media/interior.344f5acb14fda36fb93e.jpg",
@@ -27,15 +30,16 @@
     "static/media/PasswordGenerator.jpg": "/Portfolio-Akshay-Nema/static/media/PasswordGenerator.21091afb9f61e1f8a654.jpg",
     "static/media/weather.jpg": "/Portfolio-Akshay-Nema/static/media/weather.217fa68a291655752457.jpg",
     "static/media/txt analyser tool.jpeg": "/Portfolio-Akshay-Nema/static/media/txt analyser tool.37432f8756f775aa3255.jpeg",
+    "static/media/SkillNotionModal.jpg": "/Portfolio-Akshay-Nema/static/media/SkillNotionModal.3dde06df9e2b7b4990e8.jpg",
     "static/media/paypal mod.jpg": "/Portfolio-Akshay-Nema/static/media/paypal mod.4b8ac84009a3555358d8.jpg",
     "static/media/logo.jpg": "/Portfolio-Akshay-Nema/static/media/logo.fe3dc7fdd80a6a99a48a.jpg",
     "index.html": "/Portfolio-Akshay-Nema/index.html",
     "main.801ba789.css.map": "/Portfolio-Akshay-Nema/static/css/main.801ba789.css.map",
-    "main.f6f0778d.js.map": "/Portfolio-Akshay-Nema/static/js/main.f6f0778d.js.map",
+    "main.f3e8c8ee.js.map": "/Portfolio-Akshay-Nema/static/js/main.f3e8c8ee.js.map",
     "453.4faca061.chunk.js.map": "/Portfolio-Akshay-Nema/static/js/453.4faca061.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.801ba789.css",
-    "static/js/main.f6f0778d.js"
+    "static/js/main.f3e8c8ee.js"
   ]
 }
