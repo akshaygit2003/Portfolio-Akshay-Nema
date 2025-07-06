@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Akshay-Nema/static/css/main.801ba789.css",
-    "main.js": "/Portfolio-Akshay-Nema/static/js/main.f3e8c8ee.js",
+    "main.js": "/Portfolio-Akshay-Nema/static/js/main.edcc5f30.js",
     "static/js/453.4faca061.chunk.js": "/Portfolio-Akshay-Nema/static/js/453.4faca061.chunk.js",
     "static/media/expensemodel.jpg": "/Portfolio-Akshay-Nema/static/media/expensemodel.ac28d926b2ef90ba9bb1.jpg",
     "static/media/home.jpg": "/Portfolio-Akshay-Nema/static/media/home.894c384c8e62fbd36108.jpg",
@@ -35,11 +35,11 @@
     "static/media/logo.jpg": "/Portfolio-Akshay-Nema/static/media/logo.fe3dc7fdd80a6a99a48a.jpg",
     "index.html": "/Portfolio-Akshay-Nema/index.html",
     "main.801ba789.css.map": "/Portfolio-Akshay-Nema/static/css/main.801ba789.css.map",
-    "main.f3e8c8ee.js.map": "/Portfolio-Akshay-Nema/static/js/main.f3e8c8ee.js.map",
+    "main.edcc5f30.js.map": "/Portfolio-Akshay-Nema/static/js/main.edcc5f30.js.map",
     "453.4faca061.chunk.js.map": "/Portfolio-Akshay-Nema/static/js/453.4faca061.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.801ba789.css",
-    "static/js/main.f3e8c8ee.js"
+    "static/js/main.edcc5f30.js"
   ]
 }
