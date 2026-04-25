@@ -1,6 +1,12 @@
 {
   "home": "Home",
   "about": "About me",
+  "experience": "Experience",
+  "experience-intro": "Roles and projects that shaped how I build software, lead initiatives, and collaborate with teams.",
+  "experience-about-blurb": "A snapshot of my professional and community work. Open the Experience page for the full timeline.",
+  "experience-page-intro": "A snapshot of my journey building scalable, real-world applications and solving practical engineering challenges. I focus on writing efficient, maintainable code while continuously improving performance and user experience.",
+  "experience-link": "View related link",
+  "experience-cta-btn": "Read More",
   "services": "Services",
   "projects": "Projects",
   "contact": "Contact",

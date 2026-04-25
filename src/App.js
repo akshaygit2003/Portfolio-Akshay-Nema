@@ -6,6 +6,7 @@ import { useLocation } from "react-router-dom";
 /* Pages */
 import Home from "./pages/Home/HomePage";
 import About from "./pages/About/AboutPage";
+import ExperiencePage from "./pages/Experience/ExperiencePage";
 import Services from "./pages/Service/ServicesPage";
 import Project from "./pages/Project/ProjectPage";
 
@@ -44,6 +45,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/experience" element={<ExperiencePage />}></Route>
           <Route exact path="/service" element={<Services />}></Route>
           <Route exact path="/project" element={<Project />}></Route>
         </Routes>

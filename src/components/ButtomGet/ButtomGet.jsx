@@ -4,12 +4,15 @@ import './buttom.css'
 
 import { FormattedMessage } from 'react-intl';
 
-export const ButtomGet = () => {
+export const ButtomGet = ({
+  messageId = "btn-know-more",
+  defaultMessage = "Read more",
+}) => {
     return (
-        <button className="cssbuttons-io-button">  
+        <button className="cssbuttons-io-button" type="button">  
             <FormattedMessage
-                id='btn-know-more'
-                defaultMessage='Read more'
+                id={messageId}
+                defaultMessage={defaultMessage}
             />
             <div className="icon">
                 <Icon/>
