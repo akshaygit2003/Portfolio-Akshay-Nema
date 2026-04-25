@@ -52,7 +52,7 @@ const About = () => {
               <p>
                 <FormattedMessage
                   id="about-info-1"
-                  defaultMessage="Hello! I am Akshay Nema, a third-year computer science and engineering student. With a good foundation in Data Structures and Algorithms and over 400 questions solved across several platforms, I bring problem-solving abilities to every job I handle."
+                  defaultMessage="Hello! I am a Computer Science and Engineering student passionate about building scalable and efficient software solutions. With a good foundation in Data Structures and Algorithms and over 400 questions solved across several platforms, I bring problem-solving abilities to every job I handle."
                 />
               </p>
 
@@ -60,7 +60,7 @@ const About = () => {
                 <p>
                   <FormattedMessage
                     id="about-info-2"
-                    defaultMessage="As a Front-End Developer, I specialize in developing responsive, dynamic user interfaces with HTML, CSS, JavaScript, and React. I'm now expanding my skill set by learning the MERN stack (MongoDB, Express, React, and Node.js) to improve my full-stack development talents. My front-end experience includes using current tools such as Redux for state management, Tailwind CSS for custom styling, and Bootstrap for responsive design."
+                    defaultMessage="As a Software Developer, I specialize in developing responsive, dynamic user interfaces with HTML, CSS, JavaScript, and React. I'm now expanding my skill set by learning the MERN stack (MongoDB, Express, React, and Node.js) to improve my full-stack development talents. My front-end experience includes using current tools such as Redux for state management, Tailwind CSS for custom styling, and Bootstrap for responsive design."
                   />
                 </p>
 

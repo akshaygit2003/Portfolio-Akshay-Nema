@@ -1,13 +1,13 @@
 import React from "react";
 import "../../pages/Contact/ContactPage.css";
-/* TypedJs */
 import Typical from "react-typical";
 
 /* Multi language*/
 import { FormattedMessage } from "react-intl";
 
-const Contact = () => (
-  <section className="contacts" id="contacts">
+const Contact = () => {
+  return (
+    <section className="contacts" id="contacts">
     <h2 className="heading">
       <FormattedMessage id="contact" defaultMessage="Contact" />
     </h2>
@@ -136,7 +136,8 @@ const Contact = () => (
         <div className="text">Telegram</div>
       </a>
     </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default React.memo(Contact);

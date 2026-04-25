@@ -1,8 +1,7 @@
 import React from "react";
 import "../../pages/About/AboutPage.css";
 import { Link } from "react-router-dom";
-// import cv from "../../assets/cv/UpdatedResume.pdf";
-import cv from "../../cv/UpdatedResume.pdf";
+import cv from "../../cv/Akshay_Nema_Resume.pdf";
 import { ButtomGet } from "../ButtomGet/ButtomGet";
 
 /* Multi language*/
@@ -22,7 +21,7 @@ const About = () => (
         <h4>
           <FormattedMessage
             id="description"
-            defaultMessage="My name is Akshay Nema and I am a Frontend developer."
+            defaultMessage="My name is Akshay Nema and I am a Software Developer."
           />
         </h4>
         <p>
@@ -202,7 +201,7 @@ const About = () => (
             <img
               alt="Visual Studio Code"
               className="icons-skills"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
               title="Visual Studio Code"
             />
             <h5>VS Code</h5>

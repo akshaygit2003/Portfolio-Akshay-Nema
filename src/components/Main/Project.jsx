@@ -10,7 +10,6 @@ import { FormattedMessage } from "react-intl";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper";
 
 /* Img */
 const projectImage = require.context("../../img", true);
@@ -32,15 +31,6 @@ const Project = () => {
           loop={true}
           grabCursor={true}
           centeredSlides={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Pagination, Autoplay]}
           breakpoints={{
             0: {
               slidesPerView: 1,

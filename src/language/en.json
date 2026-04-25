@@ -10,10 +10,10 @@
 
   "greeting": "Hello",
   "name": "I am Akshay Nema",
-  "role": "Frontend developer",
+  "role": "Software Developer",
 
   "im": "who I am",
-  "description": "My name is Akshay Nema and I am a Frontend developer.",
+  "description": "My name is Akshay Nema and I am a Software Developer.",
   "my-description": "I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   "years": "Age: ",
   "from": "From: ",
@@ -39,9 +39,9 @@
 
   "footer-info": "Page created by Akshay Nema ",
 
-  "about-info-1": "Hello! I am Akshay Nema, a third-year computer science and engineering student. With a good foundation in Data Structures and Algorithms and over 400 questions solved across several platforms, I bring problem-solving abilities to every job I handle.",
+  "about-info-1": "Hello! I am a Computer Science and Engineering student passionate about building scalable and efficient software solutions. With a good foundation in Data Structures and Algorithms and over 400 questions solved across several platforms, I bring problem-solving abilities to every job I handle.",
 
-  "about-info-2": "As a Front-End Developer, I specialize in developing responsive, dynamic user interfaces with HTML, CSS, JavaScript, and React. I'm now expanding my skill set by learning the MERN stack (MongoDB, Express, React, and Node.js) to improve my full-stack development talents. My front-end experience includes using current tools such as Redux for state management, Tailwind CSS for custom styling, and Bootstrap for responsive design.",
+  "about-info-2": "As a Software Developer, I specialize in developing responsive, dynamic user interfaces with HTML, CSS, JavaScript, and React. I'm now expanding my skill set by learning the MERN stack (MongoDB, Express, React, and Node.js) to improve my full-stack development talents. My front-end experience includes using current tools such as Redux for state management, Tailwind CSS for custom styling, and Bootstrap for responsive design.",
 
   "about-info-3": "In addition to coding, I take pride in producing clean, efficient, and maintainable code, ensuring that my projects are functional and scalable. I'm constantly willing to cooperate with teams and adapt to new technologies in order to provide unique solutions that suit customer needs. If you're searching for someone who is not only technically proficient but also enthusiastic about creating convincing user-centric solutions, I'd be delighted to connect and cooperate!",
 
