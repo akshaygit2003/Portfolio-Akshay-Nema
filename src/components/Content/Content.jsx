@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Content.css";
 import ParticleHeaderBg from "../ParticlesBg/ParticlesHeader/ParticleHeaderBg";
 
@@ -6,6 +6,47 @@ import ParticleHeaderBg from "../ParticlesBg/ParticlesHeader/ParticleHeaderBg";
 import { Link } from "react-scroll";
 
 import { FormattedMessage } from "react-intl";
+
+const roles = [
+  "Frontend Developer",
+  "Fullstack Developer",
+  "MERN Developer",
+  "SEO and Performance Optimisation",
+];
+
+const TypewriterRole = () => {
+  const [index, setIndex] = useState(0);
+  const [subIndex, setSubIndex] = useState(0);
+  const [reverse, setReverse] = useState(false);
+
+  useEffect(() => {
+    if (subIndex === roles[index].length + 1 && !reverse) {
+      const timeout = setTimeout(() => {
+        setReverse(true);
+      }, 1500);
+      return () => clearTimeout(timeout);
+    }
+
+    if (subIndex === 0 && reverse) {
+      setReverse(false);
+      setIndex((prev) => (prev + 1) % roles.length);
+      return;
+    }
+
+    const timeout = setTimeout(() => {
+      setSubIndex((prev) => prev + (reverse ? -1 : 1));
+    }, reverse ? 40 : 80);
+
+    return () => clearTimeout(timeout);
+  }, [subIndex, index, reverse]);
+
+  return (
+    <span className="typewriter-text">
+      {roles[index].substring(0, subIndex)}
+      <span className="typewriter-cursor">|</span>
+    </span>
+  );
+};
 
 const Content = () => (
   <div className="conntent">
@@ -21,7 +62,7 @@ const Content = () => (
         </h1>
         <br />
         <p data-aos="fade-up" data-aos-delay="1000" className="role-text">
-          <FormattedMessage id="role" defaultMessage="Software Developer" />
+          <TypewriterRole />
         </p>
         <br />
 

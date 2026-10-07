@@ -20,11 +20,15 @@ body.dark .btn-code:hover {
 /********************** header **********************/
 
 body.dark .site-header {
-  background: #111111;
+  background: rgba(18, 24, 38, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 230, 118, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 body.dark .navbar.active {
-  background-color: #111;
+  background-color: rgba(18, 24, 38, 0.95);
 }
 
 body.dark .logo span {
@@ -61,12 +65,19 @@ body.dark .skill h5 {
   color: #000;
 }
 
-body.dark main section .row .columns .skill img {
-  filter: grayscale(100%);
+/* High contrast icons in Dark Mode */
+body.dark main section .row .columns .skill img,
+body.dark .icons-skills,
+body.dark .single-modal-tech img,
+body.dark .skills-img {
+  filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.85)) !important;
+  transition: all 0.3s ease;
 }
 
-body.dark main section .row .columns .skill img:hover {
-  filter: grayscale(0);
+body.dark main section .row .columns .skill img:hover,
+body.dark .icons-skills:hover,
+body.dark .single-modal-tech img:hover {
+  filter: drop-shadow(0px 0px 10px rgba(0, 230, 118, 0.9)) scale(1.1) !important;
 }
 
 /********************** services **********************/

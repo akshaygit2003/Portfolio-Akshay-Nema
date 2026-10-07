@@ -8,8 +8,10 @@ import { FormattedMessage } from "react-intl";
 
 /* Swiper */
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 /* Img */
 const projectImage = require.context("../../img", true);
@@ -27,10 +29,20 @@ const Project = () => {
         data-aos-duration="2000"
       >
         <Swiper
+          modules={[Pagination, Navigation, Autoplay]}
           spaceBetween={30}
           loop={true}
           grabCursor={true}
           centeredSlides={true}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+            dynamicBullets: true,
+          }}
+          navigation={true}
           breakpoints={{
             0: {
               slidesPerView: 1,
@@ -50,12 +62,12 @@ const Project = () => {
               alt="projects"
             />
             <div className="content">
-              <h3>Task Manager</h3>
-              <p>React Based Task Manager </p>
+              <h3>Task Management Engine</h3>
+              <p>Enterprise Workflow & State Manager</p>
               <p className="technologies">
-                React-Js
-                <span> -</span> Redux
-                <span> -</span> Framer Motion
+                React 18
+                <span> -</span> Redux Toolkit
+                <span> -</span> Rate Limiting
                 <span> -</span> Tailwind CSS
               </p>
               <a
@@ -81,14 +93,14 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./EnigmaSliderfinal.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Enigma : Tech-Fest Website</h3>
-              <p>Mern Based Techfest Website </p>
+              <h3>Enigma : High-Concurrency Tech Portal</h3>
+              <p>4,500+ User Event Platform with Performance Optimisation</p>
               <p className="technologies">
                 React-Js
+                <span> -</span> NodeJs
+                <span> -</span> MERN
                 <span> -</span> MongoDB
                 <span> -</span> Express
-                <span> -</span> NodeJs
-                <span> -</span> Sass
               </p>
               <a
                 href="https://enigmamits.tech/"
@@ -113,14 +125,14 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./SkillNotionSlider.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Skill-Notion</h3>
-              <p>Ed-tech Platform</p>
+              <h3>SkillNotion (EduVerse)</h3>
+              <p>Full-Stack EdTech Platform & RBAC System</p>
               <p className="technologies">
                 React-Js
-                <span> -</span> MongoDB
-                <span> -</span> Express
                 <span> -</span> NodeJs
-                <span> -</span> Tailwind CSS
+                <span> -</span> Express
+                <span> -</span> MongoDB
+                <span> -</span> Redux
               </p>
               <a
                 href="https://github.com/akshaygit2003/Eduverse"
@@ -145,12 +157,13 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./budget.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Budget Buddy</h3>
-              <p> Expense Tracker Tool</p>
+              <h3>Budget Buddy Analytics</h3>
+              <p>Real-Time Financial Tracker & Data Pipeline</p>
               <p className="technologies">
-                React-Js
+                React 18
                 <span> -</span> Firebase
-                <span> -</span> Tailwind CSS
+                <span> -</span> Ant Design
+                <span> -</span> Charts
               </p>
               <a
                 href="https://react-budget-buddy.netlify.app/"
@@ -175,12 +188,13 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./interiorfinal.png`)} alt="projects" />
             <div className="content">
-              <h3>Interior Design Website</h3>
-              <p>Interior Design Landing Page</p>
+              <h3>Interior Design Architecture</h3>
+              <p>High-Performance Layout & Motion Showcase</p>
               <p className="technologies">
                 React-Js
                 <span> -</span> Tailwind CSS
                 <span> -</span> Framer Motion
+                <span> -</span> Web Vitals
               </p>
               <a
                 href="https://interiorbyakshay.netlify.app/"
@@ -205,11 +219,12 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./weather.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Weather Forecast</h3>
-              <p>Weather Tracking Tool </p>
+              <h3>Weather Analytics Dashboard</h3>
+              <p>Debounced Query Engine & LRU Caching</p>
               <p className="technologies">
-                React-Js
-                <span> -</span> Open-Weather API
+                React 18
+                <span> -</span> OpenWeather API
+                <span> -</span> GeoDB Autocomplete
               </p>
               <a
                 href="https://tracktemperature.netlify.app/"
@@ -233,12 +248,12 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./Text Wizards.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Text Utility Tool</h3>
-              <p>React Based Text Analyser</p>
+              <h3>Text Processing Engine</h3>
+              <p>Zero-Allocation String Parser Suite</p>
               <p className="technologies">
                 React-Js
-                <span> -</span> Tailwind CSS
-                <span> -</span> Bootstrap
+                <span> -</span> Web Speech API
+                <span> -</span> Dark Theme
               </p>
               <a
                 href="https://text-wizards.netlify.app/"
@@ -258,15 +273,17 @@ const Project = () => {
               </a>
             </div>
           </SwiperSlide>
+
           <SwiperSlide className="contain">
             <img src={projectImage(`./Cars.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Classic Cars</h3>
-              <p>A Car Showroom Website</p>
+              <h3>Classic Automotive Gallery</h3>
+              <p>Hardware-Accelerated Retro Showcase</p>
               <p className="technologies">
                 HTML5
-                <span> -</span> CSS
+                <span> -</span> CSS3
                 <span> -</span> JavaScript
+                <span> -</span> Keyframes
               </p>
               <a
                 href="https://classic-cars-love.netlify.app/"
@@ -286,15 +303,17 @@ const Project = () => {
               </a>
             </div>
           </SwiperSlide>
+
           <SwiperSlide className="contain">
             <img src={projectImage(`./Paypal.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Papal Clone Website</h3>
-              <p>Clone of Paypal </p>
+              <h3>FinTech Portal Prototype</h3>
+              <p>Secure Auth & Input Validation Interface</p>
               <p className="technologies">
                 HTML5
-                <span> -</span> CSS
+                <span> -</span> CSS3
                 <span> -</span> JavaScript
+                <span> -</span> Form Sanitization
               </p>
               <a
                 href="https://akshaygit2003.github.io/Paypal-clone/"
@@ -314,15 +333,17 @@ const Project = () => {
               </a>
             </div>
           </SwiperSlide>
+
           <SwiperSlide className="contain">
             <img src={projectImage(`./business.png`)} alt="projects" />
             <div className="content">
-              <h3>Business Website </h3>
-              <p>Landing Page </p>
+              <h3>Corporate Agency Platform</h3>
+              <p>High-Converting Web Architecture</p>
               <p className="technologies">
                 HTML5
-                <span> -</span> CSS
+                <span> -</span> CSS Grid
                 <span> -</span> JavaScript
+                <span> -</span> Web Vitals
               </p>
               <a
                 href="https://akshaygit2003.github.io/Business-Website/"
@@ -342,15 +363,17 @@ const Project = () => {
               </a>
             </div>
           </SwiperSlide>
+
           <SwiperSlide className="contain">
             <img src={projectImage(`./Food Website.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Food Website </h3>
-              <p>Food Menu Landing Page</p>
+              <h3>Culinary Menu Application</h3>
+              <p>Interactive Async Menu Interface</p>
               <p className="technologies">
                 HTML5
-                <span> -</span> CSS
+                <span> -</span> CSS3
                 <span> -</span> JavaScript
+                <span> -</span> Lazy Loading
               </p>
               <a
                 href="https://akshaygit2003.github.io/Food-Website/"
@@ -370,15 +393,17 @@ const Project = () => {
               </a>
             </div>
           </SwiperSlide>
+
           <SwiperSlide className="contain">
             <img src={projectImage(`./PasswordGenerator.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Password Generator</h3>
-              <p>Password Generator Tool</p>
+              <h3>Cryptographic Key Generator</h3>
+              <p>Web Crypto API Non-Deterministic Generator</p>
               <p className="technologies">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
+                Web Crypto API
+                <span> -</span> HTML5
+                <span> -</span> CSS3
+                <span> -</span> Entropy Scoring
               </p>
               <a
                 href="https://akshaygit2003.github.io/Password-Generator/"
@@ -399,7 +424,6 @@ const Project = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        <div className="swiper-pagination"></div>
       </div>
       {/* <Link className="custom-btn btn-code portfolio-btn" to="/project">
                 <FormattedMessage

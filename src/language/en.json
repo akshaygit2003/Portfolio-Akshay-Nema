@@ -2,12 +2,12 @@
   "home": "Home",
   "about": "About me",
   "experience": "Experience",
-  "experience-intro": "Roles and projects that shaped how I build software, lead initiatives, and collaborate with teams.",
-  "experience-about-blurb": "A snapshot of my professional and community work. Open the Experience page for the full timeline.",
-  "experience-page-intro": "A snapshot of my journey building scalable, real-world applications and solving practical engineering challenges. I focus on writing efficient, maintainable code while continuously improving performance and user experience.",
-  "experience-link": "View related link",
+  "experience-intro": "Roles and software engineering projects focused on building scalable full-stack applications and optimized user interfaces.",
+  "experience-about-blurb": "A snapshot of my professional software development timeline and impact.",
+  "experience-page-intro": "A comprehensive timeline of my software development experience — architecting fullstack platforms, optimizing response latencies, and building resilient web applications.",
+  "experience-link": "View project or live demo",
   "experience-cta-btn": "Read More",
-  "services": "Services",
+  "services": "Services & Expertise",
   "projects": "Projects",
   "contact": "Contact",
 
@@ -16,92 +16,92 @@
 
   "greeting": "Hello",
   "name": "I am Akshay Nema",
-  "role": "Software Developer",
+  "role": "Frontend Developer | Fullstack Developer | MERN Developer",
 
   "im": "who I am",
-  "description": "My name is Akshay Nema and I am a Software Developer.",
-  "my-description": "I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+  "description": "I am Akshay Nema, Fullstack & MERN Developer passionate about performance optimization and modern web design.",
+  "my-description": "Fullstack Developer with hands-on experience building multi-tenant web applications, resilient REST APIs, and high-performance UI systems. Specialized in React.js, Node.js, MERN stack, SEO, API rate-limiting, and frontend performance optimization.",
   "years": "Age: ",
-  "from": "From: ",
+  "from": "Location: ",
   "btn-know-more": "Read more",
-  "tools": "Languages & Tools",
+  "tools": "Languages & Tech Stack",
 
-  "DSA": "Data Structures & Algorithms",
-  "DSA-info": "I specialize in crafting optimized solutions for complex challenges, leveraging my experience with over 400+ DSA questions across multiple platforms.",
-  "development": "Web development",
-  "development-info": "Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website.",
-  "backend": "Backend Development",
-  "backend-info": "I develop scalable, secure backends, handling databases and APIs to ensure smooth data flow and reliable performance for web applications.",
-  "maintenance": "Social Media Management",
-  "social-media-info": "As the Social Media Lead for GDG, I strategize and manage online presence, fostering community growth and enhancing outreach.",
-  "CleanCode": "Clean Code & Collaboration",
-  "cleancode-info": "I focus on writing clean, efficient, and maintainable code while excelling in team collaborations to bring projects to life effectively.",
-  "optimization": "Website optimization",
-  "website-optimization-info": "Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website.",
+  "DSA": "Algorithms & Problem Solving",
+  "DSA-info": "Architecting optimal solutions for complex system bottlenecks, with 400+ DSA problems solved across LeetCode & competitive platforms.",
+  "development": "Frontend Developer & Systems",
+  "development-info": "Building high-performance React 18 & TypeScript interfaces with normalized state management, code splitting, memoization, and sub-100ms render performance.",
+  "backend": "Fullstack & Backend APIs",
+  "backend-info": "Designing scalable Node.js/Express REST services, MongoDB database schemas with optimized indexing, memory caching layers, and JWT/OAuth security.",
+  "maintenance": "Technical Leadership & Community",
+  "social-media-info": "Leading technical initiatives, mentoring developer communities as GDG Lead, and driving agile engineering workflows across teams.",
+  "CleanCode": "SEO & Clean Architecture",
+  "cleancode-info": "Enforcing clean architecture, SEO best practices, automated testing, Sentry observability, and clean maintainable code.",
+  "optimization": "Performance Optimisation & SEO",
+  "website-optimization-info": "Deep performance optimisation of web applications, focusing on API rate limiting, edge caching, bundle compression, debouncing/throttling, SEO, and Core Web Vitals.",
 
   "btn-more-projects": "More projects",
 
-  "contact-info": "Contact me by: ",
+  "contact-info": "Get in touch: ",
 
-  "footer-info": "Page created by Akshay Nema ",
+  "footer-info": "Designed & Built by Akshay Nema",
 
-  "about-info-1": "Hello! I am a Computer Science and Engineering student passionate about building scalable and efficient software solutions. With a good foundation in Data Structures and Algorithms and over 400 questions solved across several platforms, I bring problem-solving abilities to every job I handle.",
+  "about-info-1": "Hello! I am a Software Engineer & Fullstack Developer passionate about architecting scalable, performant MERN applications and responsive web interfaces. Grounded in core Computer Science fundamentals and 400+ algorithmic problem solutions, I bring problem-solving rigor to every project.",
 
-  "about-info-2": "As a Software Developer, I specialize in developing responsive, dynamic user interfaces with HTML, CSS, JavaScript, and React. I'm now expanding my skill set by learning the MERN stack (MongoDB, Express, React, and Node.js) to improve my full-stack development talents. My front-end experience includes using current tools such as Redux for state management, Tailwind CSS for custom styling, and Bootstrap for responsive design.",
+  "about-info-2": "In my software development roles (including Omniful Technologies and EduCerns), I specialize in building multi-tenant dashboards, modular React/Redux micro-frontends, and Node.js REST APIs. My focus includes performance optimisation, state normalization, client/server rate limiting, SEO, and production releases.",
 
-  "about-info-3": "In addition to coding, I take pride in producing clean, efficient, and maintainable code, ensuring that my projects are functional and scalable. I'm constantly willing to cooperate with teams and adapt to new technologies in order to provide unique solutions that suit customer needs. If you're searching for someone who is not only technically proficient but also enthusiastic about creating convincing user-centric solutions, I'd be delighted to connect and cooperate!",
+  "about-info-3": "I thrive in engineering environments that prioritize high availability, sub-100ms response latencies, and clean maintainable code. Beyond writing code, I actively contribute to technical leadership as a GDG Lead, conduct peer code reviews, and leverage observability tools like Sentry to debug production issues.",
 
   "Resume": "Resume",
 
-  "services-questions": "Frequent questions",
-  "services-questions-1": "How do I stay up to date with web development trends?",
-  "services-questions-p1": "I constantly expand my knowledge by learning new technologies and frameworks, participating in tech communities like GDG, attending workshops, and following industry blogs and tutorials.",
+  "services-questions": "Frequently Asked Questions",
+  "services-questions-1": "How do I approach performance optimisation and rate limiting?",
+  "services-questions-p1": "I implement rate-limiting patterns using algorithms like Token Bucket at the API gateway layer to prevent abuse. On the frontend, I leverage memoization, request debouncing/throttling, dynamic code splitting, and Web Vitals optimisation.",
 
-  "services-questions-2": "How do I ensure my websites are responsive?",
-  "services-questions-p2": "I use responsive design techniques such as CSS media queries, mobile-first design, and frameworks like Tailwind CSS and Bootstrap to ensure that websites work seamlessly across different devices and screen sizes.",
+  "services-questions-2": "How do I ensure microservices and UI components remain scalable?",
+  "services-questions-p2": "I design decoupled, modular component libraries using utility-first styling and strict interface abstractions. On the backend, I apply SOLID design patterns, stateless authentication, normalized database indexes, and caching layers.",
 
-  "services-questions-3": "What makes me stand out as a web developer?",
-  "services-questions-p3": "My ability to blend modern front-end technologies with a keen eye for design and user experience. I constantly learn and adapt to new trends, and I am committed to delivering scalable, high-performance solutions tailored to the needs of the user.",
+  "services-questions-3": "What sets my engineering approach apart as a Fullstack & MERN Developer?",
+  "services-questions-p3": "A strong foundation in Data Structures & Algorithms combined with real-world production experience. I don't just build features — I measure response latencies, optimize database query profiles, enforce SEO best practices, and ensure reliability under load.",
 
-  "services-questions-4": "How do I approach working with a team on web development projects??",
-  "services-questions-p4": "Collaboration is key to a successful project. I communicate clearly, share ideas, and use tools like Github. Whether working on a small team or a large project, I focus on keeping everything organized and ensuring everyone is aligned on the project goals.",
+  "services-questions-4": "How do I handle agile engineering workflows and production deployments?",
+  "services-questions-p4": "I work with structured Git workflows (feature → dev → staging → main), automated deployment pipelines, code reviews, and production observability using tools like Sentry for quick fault isolation.",
 
   "projects-link": "Link:",
-  "projects-tec": "Used technology:",
+  "projects-tec": "Tech Stack & Concepts:",
 
-  "projects-info-1-p1": "Built a responsive Task Management Dashboard using React and Redux for state management.",
-  "projects-info-1-p2": "The project includes robust CRUD (Create, Read, Update, Delete) operations for tasks, allowing users to manage their tasks effortlessly. The integration of Redux ensures centralized state handling, enhancing application scalability and maintainability.",
+  "projects-info-1-p1": "Engineered an Enterprise Task Management Dashboard with React 18 and Redux for centralized state management.",
+  "projects-info-1-p2": "Features real-time state persistence, optimistic UI updates, debounced search filters, rate-limited batch API synchronization, and smooth Framer Motion micro-interactions.",
 
-  "projects-info-2-p1": "Built a Text Analyzer with features to format text, including uppercase, lowercase, and clearing text.",
-  "projects-info-2-p2": "The tool is enriched with advanced functionalities such as dark/light theme toggles, text-to-speech conversion, copying text, and estimating reading time. ",
+  "projects-info-2-p1": "Engineered a client-side Text Analysis Suite featuring zero-allocation string parsing, dark/light theme state persistence, and Web Speech API integration.",
+  "projects-info-2-p2": "Optimized for large text payloads with debounced calculation pipelines (word count, reading duration, density analysis) and clipboard stream handling.",
 
-  "projects-info-3-p1": "Created a visually captivating Classic Car Project inspired by a retro theme using HTML, CSS, and JavaScript. The project showcases vintage cars with a nostalgic design, featuring vibrant retro color palettes, bold typography, and smooth transitions.",
-  "projects-info-3-p2": "The project features smooth animations, and interactive hover effects. JavaScript enhances the experience with dynamic elements such as a carousel for browsing cars and responsive design to ensure compatibility across devices.",
+  "projects-info-3-p1": "Created a classic automotive presentation web app focused on hardware-accelerated animations, CSS custom properties, and modular layout algorithms.",
+  "projects-info-3-p2": "Features responsive image asset handling, fluid typographic scaling, and smooth transition keyframes across viewport breakpoints.",
 
-  "projects-info-4-p1": "Developed a polished Business Agency Landing Page using HTML, CSS, and JavaScript.",
-  "projects-info-4-p2": "The page is designed with a modern aesthetic, featuring a clean layout and intuitive navigation. Smooth card animations enhance the visual appeal, creating a dynamic browsing experience that captivates users and leaves a professional impression.",
+  "projects-info-4-p1": "Developed a high-converting Corporate Agency Web Portal built with clean semantic HTML5, modern CSS architectures, and JavaScript DOM manipulation.",
+  "projects-info-4-p2": "Engineered with mobile-first CSS grid/flexbox layouts, hardware-accelerated card transitions, Performance Optimisation, and SEO best practices.",
 
-  "projects-info-5-p1": "Built a Password Generator Tool using HTML, CSS, and JavaScript, providing users with secure, randomized passwords effortlessly.",
-  "projects-info-5-p2": "The Password Generator Tool includes features for generating passwords with lowercase, uppercase letters, numbers, symbols, and spaces. Additionally, it allows users to exclude duplicate characters, ensuring unique and strong passwords tailored to specific security needs.",
+  "projects-info-5-p1": "Architected a Cryptographically Secure Password Generator utilizing Web Crypto API (`window.crypto.getRandomValues`) for non-deterministic key generation.",
+  "projects-info-5-p2": "Includes customizable entropy rules (character sets, exclusion masks) and real-time password strength entropy scoring.",
 
-  "projects-info-6-p1": "Developed a Food Menu Website using HTML, CSS, and JavaScript, designed for a seamless user experience. The website showcases an interactive and visually appealing menu, enhancing user engagement through smooth navigation.",
-  "projects-info-6-p2": "Fully responsive, the website adapts seamlessly to all screen sizes, ensuring smooth functionality across devices. CSS animations and JavaScript interactivity contribute to a fluid and engaging browsing experience for users.",
+  "projects-info-6-p1": "Built a responsive Food Menu & Ordering UI platform leveraging asynchronous JavaScript state updates and CSS transition pipelines.",
+  "projects-info-6-p2": "Optimized image loading through lazy attributes, smooth category filtering, and lightweight DOM updates.",
 
-  "projects-info-7-p1": "Developed a PayPal Clone website using HTML, CSS, and JavaScript, featuring login and signup pages. The design is sleek and functional, mimicking PayPal’s interface with responsive layouts and smooth animations for an engaging user experience.",
-  "projects-info-7-p2": "The website adjusts seamlessly to all screen sizes, ensuring compatibility across devices. JavaScript enhances interactivity, while CSS animations provide smooth transitions, creating a polished, user-friendly experience.",
+  "projects-info-7-p1": "Engineered a modern Financial Services Landing & Auth Prototype modeling secure authentication flows and input validation.",
+  "projects-info-7-p2": "Features reactive form field sanitization, responsive layout breakpoints, and accessibility-compliant UI elements.",
 
-  "projects-info-8-p1": "Built an Interior Design website using React, Tailwind CSS, and Framer Motion for smooth animations.",
-  "projects-info-8-p2": "Showcases responsive layouts optimized for different screen sizes, ensuring a seamless user experience and Demonstrates proficiency in Tailwind CSS for utility-first styling and Framer Motion for dynamic UI elements.",
+  "projects-info-8-p1": "Designed a modern Interior Showcase platform using React, Tailwind CSS, and Framer Motion layout animations.",
+  "projects-info-8-p2": "Implemented component lazy-loading, WebP media optimization, SEO, and responsive design systems delivering high Lighthouse Web Vitals scores.",
 
-  "projects-info-9-p1": "Developed an Expense Tracker app using React, Firebase, and Ant Design, featuring user authentication.",
-  "projects-info-9-p2": "Implemented functionality for importing/exporting data to CSV and visualizing expenses through interactive graphs.Built a fully responsive design for seamless use across devices.",
+  "projects-info-9-p1": "Developed a real-time Expense Analytics application using React, Firebase Auth/Firestore, and Ant Design components.",
+  "projects-info-9-p2": "Implemented client-side CSV data pipelines, virtualized list rendering for large financial datasets, and interactive charting libraries for spend insights.",
 
-  "projects-info-10-p1": "Built with React and OpenWeather API : Provides real-time weather data, including temperature, humidity, wind speed, and a detailed 7-day forecast.",
-  "projects-info-10-p2": " Enhanced UX with GeoDB Cities Autocomplete : Implements a city search feature with autocomplete for seamless user experience.Fully Responsive Design : Ensures consistent usability across different screen sizes, showcasing proficiency in modern front-end development.",
+  "projects-info-10-p1": "Built a High-Performance Weather Forecast Dashboard with React 18 and OpenWeather REST API.",
+  "projects-info-10-p2": "Implemented client-side request debouncing, LRU memory caching for city queries, and GeoDB city autocomplete integration to minimize redundant network bandwidth.",
 
-  "projects-info-11-p1": "Skill Notion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.",
-  "projects-info-11-p2": "Skill Notion aims to provide a seamless and interactive learning experience for students, making education more accessible and engaging.A platform for instructors to showcase their expertise and connect with learners across the globe.",
+  "projects-info-11-p1": "SkillNotion (EduVerse) is a full-stack EdTech learning platform built on MERN stack (ReactJS, NodeJS, ExpressJS, MongoDB), enabling instructors and learners to interact seamlessly.",
+  "projects-info-11-p2": "Engineered with RESTful APIs, JWT role-based access control (RBAC), Cloudinary media uploads, API rate-limiting middleware to guard against abuse, and Redux Toolkit state normalization.",
 
-  "projects-info-12-p1": "Developed the official website for Enigma, the tech fest of MITSDU — a fully responsive, secure, and feature-rich platform crafted with modern web technologies to deliver an engaging user experience.",
-  "projects-info-12-p2": "From seamless user authentication to event access and management, every feature was engineered with a strong focus on security, scalability, and performance — efficiently handling over 4,500 live users and more than 700 registered participants."
+  "projects-info-12-p1": "Architected the official event management platform for Enigma (MITSDU Tech Fest) — a high-concurrency MERN web application.",
+  "projects-info-12-p2": "Engineered backend REST APIs with API rate-limiting middleware to withstand high-concurrency traffic spikes, implemented JWT auth, and optimized MongoDB index schemas — efficiently serving over 4,500 active concurrent users and 700+ registered participants with sub-100ms latencies."
 }

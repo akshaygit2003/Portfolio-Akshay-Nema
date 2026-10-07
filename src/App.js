@@ -1,20 +1,28 @@
-import React, { useState, useEffect } from "react";
-import { Route, Routes } from "react-router-dom";
+import React, { useState, useEffect, lazy, Suspense } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
-import { useLocation } from "react-router-dom";
-
-/* Pages */
-import Home from "./pages/Home/HomePage";
-import About from "./pages/About/AboutPage";
-import ExperiencePage from "./pages/Experience/ExperiencePage";
-import Services from "./pages/Service/ServicesPage";
-import Project from "./pages/Project/ProjectPage";
 
 import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop";
 
+/* Lazy Loaded Pages for Code Splitting */
+const Home = lazy(() => import("./pages/Home/HomePage"));
+const About = lazy(() => import("./pages/About/AboutPage"));
+const ExperiencePage = lazy(() => import("./pages/Experience/ExperiencePage"));
+const Services = lazy(() => import("./pages/Service/ServicesPage"));
+const Project = lazy(() => import("./pages/Project/ProjectPage"));
+
+const PageLoader = () => (
+  <div className="loading-page">
+    <div className="loader">
+      <span>=(Akshay Nema)=> </span>
+      <span>=(Akshay Nema)=> </span>
+    </div>
+  </div>
+);
+
 function App() {
   const location = useLocation();
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   // Google Analytics
   useEffect(() => {
@@ -25,31 +33,30 @@ function App() {
     }
   }, [location]);
 
+  // Initial render & page reload loader animation
   useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3000);
+    return () => clearTimeout(timer);
   }, []);
+
+  if (loading) {
+    return <PageLoader />;
+  }
+
   return (
     <>
       <RouterScrollTop />
-      {loading ? (
-        <div className="loading-page">
-          <div className="loader">
-            <span>=(Akshay Nema)=> </span>
-            <span>=(Akshay Nema)=> </span>
-          </div>
-        </div>
-      ) : (
+      <Suspense fallback={<PageLoader />}>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/experience" element={<ExperiencePage />}></Route>
-          <Route exact path="/service" element={<Services />}></Route>
-          <Route exact path="/project" element={<Project />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<ExperiencePage />} />
+          <Route path="/service" element={<Services />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
-      )}
+      </Suspense>
     </>
   );
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 /* ReactScroll */
 import { Link } from "react-scroll";
@@ -11,19 +11,29 @@ import DarkMode from "../DarkMode/DarkMode";
 
 /* Language */
 import { FormattedMessage } from "react-intl";
+
 const Header = () => {
-  //  dropdownMenu
-  const dropdownMenu = () => {
-    let navbar = document.querySelector(".navbar");
-    navbar.classList.toggle("active");
-
-    window.onscroll = () => {
-      if (window.scrollY > 0) {
-        document.querySelector(".site-header").classList.add("active");
-      } else document.querySelector(".site-header").classList.remove("active");
-
-      navbar.classList.remove("active");
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector(".site-header");
+      const navbar = document.querySelector(".navbar");
+      if (header) {
+        header.classList.toggle("active", window.scrollY > 20);
+      }
+      if (navbar) {
+        navbar.classList.remove("active");
+      }
     };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const dropdownMenu = () => {
+    const navbar = document.querySelector(".navbar");
+    if (navbar) {
+      navbar.classList.toggle("active");
+    }
   };
 
   return (

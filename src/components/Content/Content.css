@@ -21,7 +21,7 @@
 
 .home .title p {
   font-size: 3.5rem;
-  color: var(--white);
+  color: #ffffff;
   position: relative;
   font-weight: 600;
 }
@@ -29,6 +29,32 @@
 .home .title h1 {
   font-size: 4.5rem;
   color: var(--green);
+  font-weight: 700;
+}
+
+.home .title p.role-text {
+  font-size: 2.8rem;
+  color: #ffffff;
+  min-height: 4rem;
+}
+
+.typewriter-text {
+  color: var(--green);
+  font-weight: 700;
+  text-shadow: 0 0 15px rgba(0, 230, 118, 0.4);
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  margin-left: 4px;
+  color: var(--green);
+  font-weight: 400;
+  animation: blinkCursor 0.8s infinite;
+}
+
+@keyframes blinkCursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 .wrapper {
