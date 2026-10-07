@@ -22,11 +22,9 @@ const Contact = () => {
           2000,
           "LinkedIn",
           2000,
-          "Instagram",
+          "WhatsApp",
           2000,
           "GitHub",
-          2000,
-          "Telegram",
           2000,
         ]}
       />
@@ -90,7 +88,7 @@ const Contact = () => {
         <div className="text">LinkedIn</div>
       </a>
       <a
-        href="https://www.instagram.com/_akshay.45_?igsh=MXB2cGhwdXQ4cTdrYQ=="
+        href="https://api.whatsapp.com/send?phone=919111800310&text=Hello%20Akshay%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%21"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="zoom-in"
@@ -100,9 +98,9 @@ const Contact = () => {
           <span></span>
           <span></span>
           <span></span>
-          <span className="fab fa-instagram"></span>
+          <span className="fab fa-whatsapp"></span>
         </div>
-        <div className="text">Instagram</div>
+        <div className="text">WhatsApp</div>
       </a>
 
       <a
@@ -119,21 +117,6 @@ const Contact = () => {
           <span className="fab fa-github-square"></span>
         </div>
         <div className="text">GitHub</div>
-      </a>
-      <a
-        href="https://t.me/AkshayNema"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-aos="zoom-in"
-      >
-        <div className="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span className="fab fa-telegram"></span>
-        </div>
-        <div className="text">Telegram</div>
       </a>
     </div>
     </section>

@@ -66,6 +66,28 @@ const Content = () => (
         </p>
         <br />
 
+        <div className="mobile-highlights" data-aos="fade-up" data-aos-delay="1100">
+          <div className="mobile-stats-grid">
+            <div className="mobile-stat-badge">
+              <span className="stat-number">400+</span>
+              <span className="stat-label">DSA Solved</span>
+            </div>
+            <div className="mobile-stat-badge">
+              <span className="stat-number">15+</span>
+              <span className="stat-label">Projects</span>
+            </div>
+            <div className="mobile-stat-badge">
+              <span className="stat-number">8.5</span>
+              <span className="stat-label">CGPA</span>
+            </div>
+          </div>
+          <div className="mobile-tags-pills">
+            <span>⚡ MERN Stack</span>
+            <span>🚀 Fullstack Dev</span>
+            <span>🔥 React & Redux</span>
+          </div>
+        </div>
+
         <div className="wrapper">
           <a
             className="button"
@@ -94,17 +116,17 @@ const Content = () => (
             <span>Github</span>
           </a>
           <a
-            className="button"
-            href="https://www.instagram.com/_akshay.45_?igsh=MXB2cGhwdXQ4cTdrYQ=="
+            className="button whatsapp-btn"
+            href="https://api.whatsapp.com/send?phone=919111800310&text=Hello%20Akshay%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%21"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
             data-aos-delay="1600"
           >
             <div className="icon">
-              <i className="fab fa-instagram"></i>
+              <i className="fab fa-whatsapp"></i>
             </div>
-            <span>Instagram</span>
+            <span>WhatsApp</span>
           </a>
           <a
             className="button"
@@ -118,6 +140,20 @@ const Content = () => (
               <i className="fab fas fa-envelope"></i>
             </div>
             <span>Gmail</span>
+          </a>
+        </div>
+
+        <div className="mobile-cta-buttons" data-aos="fade-up" data-aos-delay="1900">
+          <Link to="projects" spy={true} offset={-100} className="mobile-btn primary">
+            Explore Projects <i className="fas fa-arrow-right"></i>
+          </Link>
+          <a
+            href="https://api.whatsapp.com/send?phone=919111800310&text=Hello%20Akshay%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%21"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mobile-btn secondary"
+          >
+            <i className="fab fa-whatsapp"></i> Chat on WhatsApp
           </a>
         </div>
 

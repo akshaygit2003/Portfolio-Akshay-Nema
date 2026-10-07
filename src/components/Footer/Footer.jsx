@@ -36,11 +36,11 @@ const Footer = () => {
             <i className="fab fa-github"></i>
           </a>
           <a
-            href="https://www.instagram.com/_akshay.45_?igsh=MXB2cGhwdXQ4cTdrYQ=="
+            href="https://api.whatsapp.com/send?phone=919111800310&text=Hello%20Akshay%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%21"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-instagram"></i>
+            <i className="fab fa-whatsapp"></i>
           </a>
         </div>
       </div>

@@ -1,22 +1,32 @@
-/********************** home **********************/
-
 .conntent {
   background: #010101;
-  width: 100vw;
-  height: 100vh;
-  background-position: center center;
-  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .home {
   display: flex;
+  align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 6rem 1.5rem;
+  box-sizing: border-box;
 }
 
 .home .title {
-  margin: 20rem auto 0 auto;
+  margin: 0 auto !important;
   text-align: center;
   z-index: 200 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .home .title p {
@@ -96,7 +106,7 @@
   background: #333;
 }
 .wrapper .button:nth-child(3):hover .icon {
-  background: #e1306c;
+  background: #25d366;
 }
 .wrapper .button:nth-child(4):hover .icon {
   background: #c71610;
@@ -124,10 +134,15 @@
   background-color: #333;
 }
 .wrapper .button:nth-child(3):hover {
-  background-color: #e1306c;
+  background-color: #25d366;
 }
 .wrapper .button:nth-child(4):hover {
   background-color: #c71610;
+}
+
+.mobile-highlights,
+.mobile-cta-buttons {
+  display: none;
 }
 
 .title .social-links {
@@ -139,7 +154,8 @@
   width: 30px;
   border: 2px solid #fff;
   position: absolute;
-  left: 49%;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 20px;
   border-radius: 50px;
   cursor: pointer;
@@ -149,6 +165,7 @@
   content: "";
   position: absolute;
   top: 20%;
+  left: 50%;
   height: 10px;
   width: 10px;
   transform: translate(-50%, -100%) rotate(45deg);
@@ -164,7 +181,6 @@
 
 @keyframes scroll-down {
   0% {
-    /* top:20%; */
     opacity: 0;
   }
   30% {
@@ -182,6 +198,11 @@
 /********************** Media Q **********************/
 
 @media (max-width: 990px) {
+  .home .title {
+    margin: 0 auto !important;
+    padding: 0 1.5rem;
+  }
+
   .wrapper .button .icon {
     display: inline-block;
     padding: 0 1.8rem 0 2.1rem;
@@ -194,52 +215,208 @@
   }
 
   .scroll-down {
-    left: 48%;
-    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
   }
 }
 
 @media (max-width: 760px) {
   .conntent {
-    min-height: 600px;
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+  }
+
+  .home {
+    padding: 6rem 1rem 4rem 1rem;
+  }
+
+  .home .title {
+    margin: 0 auto !important;
+    padding: 0 1rem;
   }
 
   .home .title p {
-    font-size: 3.5rem;
+    font-size: 2.6rem;
   }
 
   .home .title h1 {
-    font-size: 4rem;
+    font-size: 3.4rem;
+  }
+
+  .home .title p.role-text {
+    font-size: 2rem;
+    min-height: 4.5rem;
+  }
+
+  .mobile-highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 1.8rem 0;
+    width: 100%;
+  }
+
+  .mobile-stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .mobile-stat-badge {
+    flex: 1;
+    background: rgba(18, 24, 38, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 230, 118, 0.3);
+    border-radius: 12px;
+    padding: 0.8rem 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .mobile-stat-badge .stat-number {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: var(--green);
+  }
+
+  .mobile-stat-badge .stat-label {
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    text-transform: none;
+  }
+
+  .mobile-tags-pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .mobile-tags-pills span {
+    background: rgba(0, 230, 118, 0.12);
+    border: 1px solid rgba(0, 230, 118, 0.35);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.4rem 1.2rem;
+    border-radius: 20px;
+    text-transform: none;
+  }
+
+  .mobile-cta-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.8rem;
+    width: 100%;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobile-btn {
+    flex: 1;
+    padding: 1.1rem 1rem;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .mobile-btn.primary {
+    background: var(--green);
+    color: #0d1117;
+    box-shadow: 0 4px 15px rgba(0, 230, 118, 0.35);
+  }
+
+  .mobile-btn.secondary {
+    background: #25d366;
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.35);
   }
 }
 
 @media (max-width: 570px) {
   .wrapper {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    margin: 1.8rem 0;
+    flex-wrap: wrap;
+  }
+
+  .wrapper .button {
+    float: none;
+    margin: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper .button .icon {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+  }
+
+  .wrapper .button .icon i {
+    line-height: normal;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .wrapper .button span {
     display: none;
   }
 
-  .title .social-links {
-    display: block;
+  .wrapper .button:hover {
+    width: 48px;
   }
 }
 
 @media (max-width: 450px) {
-  .conntent {
-    min-height: 500px;
+  .home .title {
+    margin: 0 auto !important;
   }
 
   .home .title p {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
   .home .title h1 {
-    font-size: 3.5rem;
-  }
-  .scroll-down {
-    display: block;
+    font-size: 2.8rem;
   }
 
-  .icons a {
-    margin: 5rem 2rem;
+  .home .title p.role-text {
+    font-size: 1.7rem;
+    min-height: 4.2rem;
+  }
+
+  .scroll-down {
+    bottom: 20px;
   }
 }
