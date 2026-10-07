@@ -4,9 +4,11 @@
 
 [build.environment]
   CI = "false"
+  PUBLIC_URL = "/"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
 
