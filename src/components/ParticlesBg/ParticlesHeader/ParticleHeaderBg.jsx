@@ -134,82 +134,86 @@ export default function ParticleHeaderBg() {
               },
               image: [
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
-                  width: 20,
-                  height: 20,
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                  width: 24,
+                  height: 24,
                 },
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-
                 {
                   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-                  width: 20,
-                  height: 20,
+                  width: 24,
+                  height: 24,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-                  width: 20,
-                  height: 20,
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+                  width: 24,
+                  height: 24,
                 },
               ],
               images: [
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
-                  width: 20,
-                  height: 20,
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                  width: 24,
+                  height: 24,
                 },
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-
                 {
                   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-                  width: 20,
-                  height: 20,
+                  width: 24,
+                  height: 24,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-                  width: 20,
-                  height: 20,
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                  width: 24,
+                  height: 24,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+                  width: 24,
+                  height: 24,
                 },
               ],
             },
