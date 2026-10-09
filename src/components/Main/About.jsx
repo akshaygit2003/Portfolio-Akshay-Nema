@@ -1,7 +1,7 @@
 import React from "react";
 import "../../pages/About/AboutPage.css";
 import { Link } from "react-router-dom";
-import cv from "../../cv/Akshay_Nema_Resume.pdf";
+import cv from "../../cv/Resume latest Akshay Nema.pdf";
 import { ButtomGet } from "../ButtomGet/ButtomGet";
 
 const About = () => (
