@@ -7,9 +7,6 @@ import { NavLink } from "react-router-dom";
 /* DarkMode */
 import DarkMode from "../DarkMode/DarkMode";
 
-/* Language */
-import { FormattedMessage } from "react-intl";
-
 const HeaderPage = () => {
   useEffect(() => {
     const handleScroll = () => {
@@ -45,33 +42,21 @@ const HeaderPage = () => {
       </NavLink>
 
       <nav className="navbar">
-        <NavLink to="/" offset={-150} duration={500}>
-          <FormattedMessage id="home" defaultMessage="Home" />
+        <NavLink to="/">
+          Home
         </NavLink>
-        <NavLink to="/about" offset={-150} duration={500}>
-          <FormattedMessage id="about" defaultMessage="About me" />
+        <NavLink to="/about">
+          About me
         </NavLink>
-        <NavLink to="/experience" offset={-150} duration={500}>
-          <FormattedMessage id="experience" defaultMessage="Experience" />
+        <NavLink to="/experience">
+          Experience
         </NavLink>
-        <NavLink to="/service" offset={-150} duration={500}>
-          <FormattedMessage id="services" defaultMessage="Services" />
+        <NavLink to="/service">
+          Services
         </NavLink>
-        <NavLink to="/project" offset={-150} duration={500}>
-          <FormattedMessage id="projects" defaultMessage="Projects" />
+        <NavLink to="/project">
+          Projects
         </NavLink>
-        {/* <div id="buttons">
-          <img
-            onClick={() => idioma.selectLanguage("en-US")}
-            src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png"
-            alt="EEUU"
-          />
-          <img
-            onClick={() => idioma.selectLanguage("es-ES")}
-            src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png"
-            alt="España"
-          />
-        </div> */}
       </nav>
       <div className="switch" id="switch">
         <DarkMode />

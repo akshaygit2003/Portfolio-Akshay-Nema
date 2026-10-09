@@ -7,8 +7,6 @@ import Footer from "../../components/Footer/Footer";
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
-import { FormattedMessage } from "react-intl";
-
 /* Img */
 import imgabout from "../../img/home.jpg";
 
@@ -37,38 +35,19 @@ const About = () => {
           <div className="about-me-container">
             <div className="about-me-img-container">
               <img src={imgabout} alt="" className="about-me-img" />
-
-              {/* <a
-                href={cv}
-                target="_blank"
-                rel="noopener noreferrer"
-                download="UpdatedResume.pdf"
-                className="btn-code cv buttonDownload"
-              >
-                <FormattedMessage id="Resume" defaultMessage="Resume" />
-              </a> */}
             </div>
             <div className="about-me-info">
               <p>
-                <FormattedMessage
-                  id="about-info-1"
-                  defaultMessage="Hello! I am a Computer Science and Engineering student passionate about building scalable and efficient software solutions. With a good foundation in Data Structures and Algorithms and over 400 questions solved across several platforms, I bring problem-solving abilities to every job I handle."
-                />
+                Hello! I am a Software Engineer &amp; Fullstack Developer passionate about architecting scalable, performant MERN applications and responsive web interfaces. Grounded in core Computer Science fundamentals and 400+ algorithmic problem solutions, I bring problem-solving rigor to every project.
               </p>
 
               <div className="hide parrafo-active">
                 <p>
-                  <FormattedMessage
-                    id="about-info-2"
-                    defaultMessage="As a Software Developer, I specialize in developing responsive, dynamic user interfaces with HTML, CSS, JavaScript, and React. I'm now expanding my skill set by learning the MERN stack (MongoDB, Express, React, and Node.js) to improve my full-stack development talents. My front-end experience includes using current tools such as Redux for state management, Tailwind CSS for custom styling, and Bootstrap for responsive design."
-                  />
+                  In my software development roles (including Omniful Technologies and EduCerns), I specialize in building multi-tenant dashboards, modular React/Redux micro-frontends, and Node.js REST APIs. My focus includes performance optimisation, state normalization, client/server rate limiting, SEO, and production releases.
                 </p>
 
                 <p>
-                  <FormattedMessage
-                    id="about-info-3"
-                    defaultMessage="In addition to coding, I take pride in producing clean, efficient, and maintainable code, ensuring that my projects are functional and scalable. I'm constantly willing to cooperate with teams and adapt to new technologies in order to provide unique solutions that suit customer needs. If you're searching for someone who is not only technically proficient but also enthusiastic about creating convincing user-centric solutions, I'd be delighted to connect and cooperate!"
-                  />
+                  I thrive in engineering environments that prioritize high availability, sub-100ms response latencies, and clean maintainable code. Beyond writing code, I actively contribute to technical leadership as a GDG Lead, conduct peer code reviews, and leverage observability tools like Sentry to debug production issues.
                 </p>
               </div>
 
@@ -96,18 +75,15 @@ const About = () => {
               >
                 <h2 className="education-degree">
                   (B.Tech) - Bachelor of Technology
-                  <p className="education-year">2022 - 2026</p>
+                  <span className="education-year">2022 - 2026</span>
                 </h2>
                 <br />
 
-                <p className="education-info">
+                <div className="education-info">
                   <p className="score">CGPA - 8.5</p>
                   <br />
-                  <FormattedMessage
-                    id="education-btech"
-                    defaultMessage="Currently pursuing B.Tech in Computer Science and Engineering at Madhav Institute of Technology & Science, Gwalior"
-                  />
-                </p>
+                  Currently pursuing B.Tech in Computer Science and Engineering at Madhav Institute of Technology &amp; Science, Gwalior
+                </div>
               </div>
 
               {/* Class 12 */}
@@ -117,18 +93,15 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <h2 className="education-degree">
-                  Class 12th <p className="education-year">2021</p>
+                  Class 12th <span className="education-year">2021</span>
                 </h2>
 
                 <br />
-                <p className="education-info">
+                <div className="education-info">
                   <p className="score">Percentage - 90.6%</p>
                   <br />
-                  <FormattedMessage
-                    id="education-12"
-                    defaultMessage="Completed Higher Secondary Education with a focus on Science (Physics, Chemistry, Mathematics)."
-                  />
-                </p>
+                  Completed Higher Secondary Education with a focus on Science (Physics, Chemistry, Mathematics).
+                </div>
               </div>
 
               {/* Class 10 */}
@@ -140,14 +113,11 @@ const About = () => {
                 <h2 className="education-degree">Class 10th </h2>
                 <p className="education-year">2019</p>
                 <br />
-                <p className="education-info">
+                <div className="education-info">
                   <p className="score">Percentage - 92.4%</p>
                   <br />
-                  <FormattedMessage
-                    id="education-10"
-                    defaultMessage="Completed Secondary Education with a strong foundation in core subjects."
-                  />
-                </p>
+                  Completed Secondary Education with a strong foundation in core subjects.
+                </div>
               </div>
             </div>
           </div>

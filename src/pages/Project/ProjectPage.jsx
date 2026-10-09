@@ -13,9 +13,6 @@ import Footer from "../../components/Footer/Footer";
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
-/* Multi language*/
-import { FormattedMessage } from "react-intl";
-
 /* Img */
 const proyectsImg = require.context("../../img", true);
 
@@ -45,11 +42,11 @@ const Project = () => {
       <main>
         <section className="projects more-project" id="projects">
           <h1 className="heading" data-section="Nav" data-value="projects">
-            <FormattedMessage id="projects" defaultMessage="Projects" />
+            Projects
           </h1>
           <nav className="navbar nav-proj">
             <NavLink to="/project" offset={-150} duration={500}>
-              <FormattedMessage id="site-web" defaultMessage="websites" />
+              websites
             </NavLink>
           </nav>
         </section>
@@ -180,16 +177,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-12-p1"
-                  defaultMessage="Developed the official website for Enigma, the tech fest of MITSDU — a fully responsive, secure, and feature-rich platform crafted with modern web technologies to deliver an engaging user experience."
-                />
+                Developed the official website for Enigma, the tech fest of MITSDU — a fully responsive, secure, and feature-rich platform crafted with modern web technologies to deliver an engaging user experience.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-12-p2"
-                  defaultMessage="From seamless user authentication to event access and management, every feature was engineered with a strong focus on security, scalability, and performance — efficiently handling over 4,500 live users and more than 700 registered participants."
-                />
+                From seamless user authentication to event access and management, every feature was engineered with a strong focus on security, scalability, and performance — efficiently handling over 4,500 live users and more than 700 registered participants.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -203,10 +194,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -248,19 +236,12 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-11-p1"
-                  defaultMessage="Skill Notion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS."
-                />
+                Skill Notion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-11-p2"
-                  defaultMessage="Skill Notion aims to provide:
+                Skill Notion aims to provide:
 •	A seamless and interactive learning experience for students, making education more accessible and engaging.
 •	A platform for instructors to showcase their expertise and connect with learners across the globe.
-"
-                />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -274,10 +255,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -322,16 +300,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-1-p1"
-                  defaultMessage="Built a responsive Task Management Dashboard using React and Redux for state management."
-                />
+                Built a responsive Task Management Dashboard using React and Redux for state management.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-1-p2"
-                  defaultMessage="The project includes robust CRUD (Create, Read, Update, Delete) operations for tasks, allowing users to manage their tasks effortlessly. The integration of Redux ensures centralized state handling, enhancing application scalability and maintainability."
-                />
+                The project includes robust CRUD (Create, Read, Update, Delete) operations for tasks, allowing users to manage their tasks effortlessly. The integration of Redux ensures centralized state handling, enhancing application scalability and maintainability.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -345,10 +317,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -382,16 +351,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-2-p1"
-                  defaultMessage="Built a Text Analyzer with features to format text, including uppercase, lowercase, and clearing text."
-                />
+                Built a Text Analyzer with features to format text, including uppercase, lowercase, and clearing text.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-2-p2"
-                  defaultMessage="The tool is enriched with advanced functionalities such as dark/light theme toggles, text-to-speech conversion, copying text, and estimating reading time."
-                />
+                The tool is enriched with advanced functionalities such as dark/light theme toggles, text-to-speech conversion, copying text, and estimating reading time.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -405,10 +368,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -439,16 +399,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-3-p1"
-                  defaultMessage="Created a visually captivating Classic Car Project inspired by a retro theme using HTML, CSS, and JavaScript. The project showcases vintage cars with a nostalgic design, featuring vibrant retro color palettes, bold typography, and smooth transitions."
-                />
+                Created a visually captivating Classic Car Project inspired by a retro theme using HTML, CSS, and JavaScript. The project showcases vintage cars with a nostalgic design, featuring vibrant retro color palettes, bold typography, and smooth transitions.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-3-p2"
-                  defaultMessage="The project features smooth animations, and interactive hover effects. JavaScript enhances the experience with dynamic elements such as a carousel for browsing cars and responsive design to ensure compatibility across devices."
-                />
+                The project features smooth animations, and interactive hover effects. JavaScript enhances the experience with dynamic elements such as a carousel for browsing cars and responsive design to ensure compatibility across devices.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -462,10 +416,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -495,16 +446,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-4-p1"
-                  defaultMessage="Developed a polished Business Agency Landing Page using HTML, CSS, and JavaScript."
-                />
+                Developed a polished Business Agency Landing Page using HTML, CSS, and JavaScript.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-4-p2"
-                  defaultMessage="The page is designed with a modern aesthetic, featuring a clean layout and intuitive navigation. Smooth card animations enhance the visual appeal, creating a dynamic browsing experience that captivates users and leaves a professional impression."
-                />
+                The page is designed with a modern aesthetic, featuring a clean layout and intuitive navigation. Smooth card animations enhance the visual appeal, creating a dynamic browsing experience that captivates users and leaves a professional impression.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -518,10 +463,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -551,16 +493,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-5-p1"
-                  defaultMessage="Built a Password Generator Tool using HTML, CSS, and JavaScript, providing users with secure, randomized passwords effortlessly."
-                />
+                Built a Password Generator Tool using HTML, CSS, and JavaScript, providing users with secure, randomized passwords effortlessly.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-5-p2"
-                  defaultMessage="The Password Generator Tool includes features for generating passwords with lowercase, uppercase letters, numbers, symbols, and spaces. Additionally, it allows users to exclude duplicate characters, ensuring unique and strong passwords tailored to specific security needs."
-                />
+                The Password Generator Tool includes features for generating passwords with lowercase, uppercase letters, numbers, symbols, and spaces. Additionally, it allows users to exclude duplicate characters, ensuring unique and strong passwords tailored to specific security needs.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -574,10 +510,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -607,16 +540,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-6-p1"
-                  defaultMessage="Developed a Food Menu Website using HTML, CSS, and JavaScript, designed for a seamless user experience. The website showcases an interactive and visually appealing menu, enhancing user engagement through smooth navigation."
-                />
+                Developed a Food Menu Website using HTML, CSS, and JavaScript, designed for a seamless user experience. The website showcases an interactive and visually appealing menu, enhancing user engagement through smooth navigation.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-6-p2"
-                  defaultMessage="Fully responsive, the website adapts seamlessly to all screen sizes, ensuring smooth functionality across devices. CSS animations and JavaScript interactivity contribute to a fluid and engaging browsing experience for users."
-                />
+                Fully responsive, the website adapts seamlessly to all screen sizes, ensuring smooth functionality across devices. CSS animations and JavaScript interactivity contribute to a fluid and engaging browsing experience for users.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -630,10 +557,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -665,16 +589,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-8-p1"
-                  defaultMessage="Built an Interior Design website using React, Tailwind CSS, and Framer Motion for smooth animations."
-                />
+                Built an Interior Design website using React, Tailwind CSS, and Framer Motion for smooth animations.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-8-p2"
-                  defaultMessage="Showcases responsive layouts optimized for different screen sizes, ensuring a seamless user experience and Demonstrates proficiency in Tailwind CSS for utility-first styling and Framer Motion for dynamic UI elements."
-                />
+                Showcases responsive layouts optimized for different screen sizes, ensuring a seamless user experience and Demonstrates proficiency in Tailwind CSS for utility-first styling and Framer Motion for dynamic UI elements.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -688,10 +606,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -724,16 +639,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-9-p1"
-                  defaultMessage="Developed an Expense Tracker app using React, Firebase, and Ant Design, featuring user authentication."
-                />
+                Developed an Expense Tracker app using React, Firebase, and Ant Design, featuring user authentication.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-9-p2"
-                  defaultMessage="Implemented functionality for importing/exporting data to CSV and visualizing expenses through interactive graphs.Built a fully responsive design for seamless use across devices."
-                />
+                Implemented functionality for importing/exporting data to CSV and visualizing expenses through interactive graphs.Built a fully responsive design for seamless use across devices.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -747,10 +656,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -783,17 +689,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-10-p1"
-                  defaultMessage="Built with React and OpenWeather API : Provides real-time weather data, including temperature, humidity, wind speed, and a detailed 7-day forecast."
-                />
+                Built with React and OpenWeather API : Provides real-time weather data, including temperature, humidity, wind speed, and a detailed 7-day forecast.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-10-p2"
-                  defaultMessage="Enhanced UX with GeoDB Cities Autocomplete : Implements a city search feature with autocomplete for seamless user experience.
-                  Fully Responsive Design : Ensures consistent usability across different screen sizes, showcasing proficiency in modern front-end development."
-                />
+                Enhanced UX with GeoDB Cities Autocomplete : Implements a city search feature with autocomplete for seamless user experience. Fully Responsive Design : Ensures consistent usability across different screen sizes, showcasing proficiency in modern front-end development.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -807,10 +706,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img
@@ -836,16 +732,10 @@ const Project = () => {
             </div>
             <div className="single-modal-text">
               <p>
-                <FormattedMessage
-                  id="projects-info-7-p1"
-                  defaultMessage="Developed a PayPal Clone website using HTML, CSS, and JavaScript, featuring login and signup pages. The design is sleek and functional, mimicking PayPal’s interface with responsive layouts and smooth animations for an engaging user experience."
-                />
+                Developed a PayPal Clone website using HTML, CSS, and JavaScript, featuring login and signup pages. The design is sleek and functional, mimicking PayPal’s interface with responsive layouts and smooth animations for an engaging user experience.
               </p>
               <p>
-                <FormattedMessage
-                  id="projects-info-7-p2"
-                  defaultMessage="The website adjusts seamlessly to all screen sizes, ensuring compatibility across devices. JavaScript enhances interactivity, while CSS animations provide smooth transitions, creating a polished, user-friendly experience."
-                />
+                The website adjusts seamlessly to all screen sizes, ensuring compatibility across devices. JavaScript enhances interactivity, while CSS animations provide smooth transitions, creating a polished, user-friendly experience.
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
@@ -859,10 +749,7 @@ const Project = () => {
               </div>
               <div className="single-modal-text-3">
                 <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
+                  Used technology:
                 </span>
                 <div className="single-modal-tech">
                   <img

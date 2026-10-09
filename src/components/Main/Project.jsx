@@ -2,10 +2,6 @@ import React from "react";
 import "../../pages/Project/ProjectPage.css";
 import { Link } from "react-router-dom";
 import { ButtomGet } from "../ButtomGet/ButtomGet";
-
-/* Multi language*/
-import { FormattedMessage } from "react-intl";
-
 /* Swiper */
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, Autoplay } from "swiper";
@@ -20,7 +16,7 @@ const Project = () => {
   return (
     <section className="projects" id="projects">
       <h2 className="heading">
-        <FormattedMessage id="projects" defaultMessage="Projects" />
+        Projects
       </h2>
       <div
         className="project-site"
@@ -425,12 +421,6 @@ const Project = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      {/* <Link className="custom-btn btn-code portfolio-btn" to="/project">
-                <FormattedMessage
-                    id='btn-more-projects'
-                    defaultMessage='More projects'
-                />
-            </Link> */}
       <div className="portfolio-btn">
         <Link to="/project">
           <ButtomGet />

@@ -4,41 +4,24 @@ import { Link } from "react-router-dom";
 import cv from "../../cv/Akshay_Nema_Resume.pdf";
 import { ButtomGet } from "../ButtomGet/ButtomGet";
 
-/* Multi language*/
-import { FormattedMessage } from "react-intl";
-
 const About = () => (
   <section className="about-me" id="about-me">
     <h2 className="heading">
-      <FormattedMessage id="about" defaultMessage="About me" />
+      About me
     </h2>
 
     <div className="row container">
       <div className="columns" data-aos="fade-right" data-aos-delay="300">
         <h3>
-          <FormattedMessage id="im" defaultMessage="who I am" />
+          who I am
         </h3>
         <h4>
-          <FormattedMessage
-            id="description"
-            defaultMessage="My name is Akshay Nema and I am a Software Developer."
-          />
+          My name is Akshay Nema and I am a Software Developer.
         </h4>
         <p>
-          <FormattedMessage
-            id="my-description"
-            defaultMessage="I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team."
-          />
+          I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.
         </p>
         <ul>
-          {/* <li>
-            <p>
-              <span>
-                <FormattedMessage id="years" defaultMessage="Age:" />
-              </span>
-              21
-            </p>
-          </li> */}
           <li>
             <p>
               <span>Hobbies: </span>
@@ -53,7 +36,7 @@ const About = () => (
           <li>
             <p>
               <span>
-                <FormattedMessage id="from" defaultMessage="From:" />
+                From:
               </span>
               Jabalpur, Madhya Pradesh
             </p>
@@ -67,7 +50,7 @@ const About = () => (
             download="Akshay Nema Resume.pdf" // By This name pdf will be downloaded
             className="btn-code buttonDownload"
           >
-            <FormattedMessage id="Resume" defaultMessage="Resume" />
+            Resume
           </a>
           <div className="more-info-btn">
             <Link to="/about">
@@ -184,8 +167,7 @@ const About = () => (
           </div>
         </div>
         <h4>
-          {/* Languages & Tools */}
-          <FormattedMessage id="tools" defaultMessage="Languages & Tools" />
+          Languages &amp; Tech Stack
         </h4>
         <div className="skill">
           <div>

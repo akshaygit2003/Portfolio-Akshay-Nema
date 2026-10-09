@@ -2,17 +2,14 @@ import React from "react";
 import "../../pages/Contact/ContactPage.css";
 import Typical from "react-typical";
 
-/* Multi language*/
-import { FormattedMessage } from "react-intl";
-
 const Contact = () => {
   return (
     <section className="contacts" id="contacts">
     <h2 className="heading">
-      <FormattedMessage id="contact" defaultMessage="Contact" />
+      Contact
     </h2>
     <h3 className="title" data-aos="fade-left" data-aos-delay="300">
-      <FormattedMessage id="contact-info" defaultMessage="Contact me by: " />
+      Get in touch:{" "}
       <Typical
         className="site-contacts"
         loop={Infinity}

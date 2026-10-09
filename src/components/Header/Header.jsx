@@ -9,9 +9,6 @@ import { NavLink } from "react-router-dom";
 /* DarkMode */
 import DarkMode from "../DarkMode/DarkMode";
 
-/* Language */
-import { FormattedMessage } from "react-intl";
-
 const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
@@ -48,22 +45,22 @@ const Header = () => {
 
       <nav className="navbar">
         <Link to="home" spy={true} offset={-150} href="#home">
-          <FormattedMessage id="home" defaultMessage="Home" />
+          Home
         </Link>
         <Link to="about-me" spy={true} offset={-150} href="#about-me">
-          <FormattedMessage id="about" defaultMessage="About me" />
+          About me
         </Link>
         <Link to="experience" spy={true} offset={-150} href="#experience">
-          <FormattedMessage id="experience" defaultMessage="Experience" />
+          Experience
         </Link>
         <Link to="services" spy={true} offset={-150} href="#services">
-          <FormattedMessage id="services" defaultMessage="Services" />
+          Services
         </Link>
         <Link to="projects" spy={true} offset={-150} href="#projects">
-          <FormattedMessage id="projects" defaultMessage="Projects" />
+          Projects
         </Link>
         <Link to="contacts" spy={true} offset={-150} href="#contacts">
-          <FormattedMessage id="contact" defaultMessage="Contact" />
+          Contact
         </Link>
       </nav>
       <div className="switch" id="switch">

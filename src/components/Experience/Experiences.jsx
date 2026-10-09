@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FormattedMessage } from "react-intl";
 import { experiences } from "../../data/experience";
 import { ButtomGet } from "../ButtomGet/ButtomGet";
 import "./experience.css";
@@ -16,13 +15,10 @@ const Experiences = ({ view = "page" }) => {
     return (
       <section className="experience-section-home" id="experience">
         <h2 className="heading">
-          <FormattedMessage id="experience" defaultMessage="Experience" />
+          Experience
         </h2>
         <p className="experience-intro">
-          <FormattedMessage
-            id="experience-intro"
-            defaultMessage="Roles and projects that shaped how I build software, lead initiatives, and collaborate with teams."
-          />
+          Roles and projects that shaped how I build software, lead initiatives, and collaborate with teams.
         </p>
         <div className="experience-preview-grid">
           {items.map((exp, index) => (
@@ -54,77 +50,13 @@ const Experiences = ({ view = "page" }) => {
     );
   }
 
-  // if (isAbout) {
-  //   return (
-  //     <div className="experience-about-block" id="experience-about">
-  //       <h2 className="heading">
-  //         <FormattedMessage id="experience" defaultMessage="Experience" />
-  //       </h2>
-  //       <p className="experience-intro">
-  //         <FormattedMessage
-  //           id="experience-about-blurb"
-  //           defaultMessage="A snapshot of my professional and community work. Open the Experience page for the full timeline."
-  //         />
-  //       </p>
-  //       <div className="experience-about-container">
-  //         {experiences.map((exp, index) => (
-  //           <article
-  //             key={exp.id}
-  //             className="experience-about-card"
-  //             data-aos="flip-left"
-  //             data-aos-delay={200 + index * 80}
-  //           >
-  //             <span className="experience-about-type">{exp.type}</span>
-  //             <h2>{exp.role}</h2>
-  //             <p className="experience-about-meta">
-  //               {exp.organization} · {exp.period}
-  //             </p>
-  //             <p className="experience-about-meta">{exp.location}</p>
-  //             <ul>
-  //               {exp.highlights.map((line) => (
-  //                 <li key={line}>{line}</li>
-  //               ))}
-  //             </ul>
-  //             {exp.link ? (
-  //               <a
-  //                 className="experience-related-link"
-  //                 href={exp.link}
-  //                 target="_blank"
-  //                 rel="noopener noreferrer"
-  //               >
-  //                 <FormattedMessage
-  //                   id="experience-link"
-  //                   defaultMessage="View related link"
-  //                 />
-  //               </a>
-  //             ) : null}
-  //           </article>
-  //         ))}
-  //       </div>
-  //       <div className="experience-cta-wrap">
-  //         <div className="more-info-btn">
-  //           <Link to="/experience">
-  //             <ButtomGet
-  //               messageId="experience-cta-btn"
-  //               defaultMessage="Read More"
-  //             />
-  //           </Link>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // }
-
   return (
     <section className="experience-page-main" id="experience-timeline">
       <h2 className="heading">
-        <FormattedMessage id="experience" defaultMessage="Experience" />
+        Experience
       </h2>
       <p className="experience-intro">
-        <FormattedMessage
-          id="experience-page-intro"
-          defaultMessage="A snapshot of my journey building scalable, real-world applications and solving practical engineering challenges. I focus on writing efficient, maintainable code while continuously improving performance and user experience."
-        />
+        A snapshot of my journey building scalable, real-world applications and solving practical engineering challenges. I focus on writing efficient, maintainable code while continuously improving performance and user experience.
       </p>
       <div className="experience-timeline">
         {experiences.map((exp, index) => (

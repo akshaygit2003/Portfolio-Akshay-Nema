@@ -1,9 +1,6 @@
 import React from "react";
 import "./Footer.css";
 
-/* Multi language*/
-import { FormattedMessage } from "react-intl";
-
 const Footer = () => {
   // Fetch current year
   let fetchYear = new Date().getFullYear();
@@ -12,12 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="site-footer">
         <div className="copyright">
-          <p>
-            <FormattedMessage
-              id="footer-info"
-              defaultMessage="Page created by Nahuel61920"
-            />
-          </p>
+          <p>Designed &amp; Built by Akshay Nema</p>
           <p>&copy; {fetchYear}. All Rights Reserved.</p>
         </div>
         <div className="social-networks">

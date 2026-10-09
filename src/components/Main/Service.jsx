@@ -3,94 +3,64 @@ import "../../pages/Service/ServicesPage.css";
 import { Link } from "react-router-dom";
 import { ButtomGet } from "../ButtomGet/ButtomGet";
 
-/* Multi language*/
-import { FormattedMessage } from "react-intl";
-
 const Service = () => (
   <section className="services" id="services">
     <h2 className="heading">
-      <FormattedMessage id="services" defaultMessage="Services" />
+      Services
     </h2>
     <div className="row">
       <div className="columns" data-aos="fade-up" data-aos-delay="200">
         <i className="fas fa-code"></i>
         <h3>
-          <FormattedMessage
-            id="DSA"
-            defaultMessage="Data Structures & Algorithms"
-          />
+          Algorithms &amp; Problem Solving
         </h3>
         <p>
-          <FormattedMessage
-            id="DSA-info"
-            defaultMessage="I specialize in crafting optimized solutions for complex challenges, leveraging my experience with over 400+ DSA questions across multiple platforms."
-          />
+          Architecting optimal solutions for complex system bottlenecks, with 400+ DSA problems solved across LeetCode &amp; competitive platforms.
         </p>
       </div>
       <div className="columns" data-aos="fade-up" data-aos-delay="300">
         <i className="fas fa-laptop"></i>
         <h3>
-          <FormattedMessage id="development" defaultMessage="Web development" />
+          Frontend Developer &amp; Systems
         </h3>
         <p>
-          <FormattedMessage
-            id="development-info"
-            defaultMessage="Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website."
-          />
+          Building high-performance React 18 &amp; TypeScript interfaces with normalized state management, code splitting, memoization, and sub-100ms render performance.
         </p>
       </div>
       <div className="columns" data-aos="fade-up" data-aos-delay="400">
         <i className="fas fa-database"></i>
         <h3>
-          <FormattedMessage id="backend" defaultMessage="Digital backend" />
+          Fullstack &amp; Backend APIs
         </h3>
         <p>
-          <FormattedMessage
-            id="backend-info"
-            defaultMessage="I develop scalable, secure backends, handling databases and APIs to ensure smooth data flow and reliable performance for web applications."
-          />
+          Designing scalable Node.js/Express REST services, MongoDB database schemas with optimized indexing, memory caching layers, and JWT/OAuth security.
         </p>
       </div>
       <div className="columns" data-aos="fade-up" data-aos-delay="500">
         <i className="fas fa-wrench"></i>
         <h3>
-          <FormattedMessage id="maintenance" defaultMessage="Web maintenance" />
+          Technical Leadership &amp; Community
         </h3>
         <p>
-          <FormattedMessage
-            id="social-media-info"
-            defaultMessage="As the Social Media Lead for GDG, I strategize and manage online presence, fostering community growth and enhancing outreach."
-          />
+          Leading technical initiatives, mentoring developer communities as GDG Lead, and driving agile engineering workflows across teams.
         </p>
       </div>
       <div className="columns" data-aos="fade-up" data-aos-delay="600">
         <i className="fas fa-user"></i>
         <h3>
-          <FormattedMessage
-            id="CleanCode"
-            defaultMessage="Web positioning (SEO)"
-          />
+          SEO &amp; Clean Architecture
         </h3>
         <p>
-          <FormattedMessage
-            id="cleancode-info"
-            defaultMessage="I focus on writing clean, efficient, and maintainable code while excelling in team collaborations to bring projects to life effectively."
-          />
+          Enforcing clean architecture, SEO best practices, automated testing, Sentry observability, and clean maintainable code.
         </p>
       </div>
       <div className="columns" data-aos="fade-up" data-aos-delay="700">
         <i className="fas fa-tachometer-alt"></i>
         <h3>
-          <FormattedMessage
-            id="optimization"
-            defaultMessage="Website optimization"
-          />
+          Performance Optimisation &amp; SEO
         </h3>
         <p>
-          <FormattedMessage
-            id="website-optimization-info"
-            defaultMessage="Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website."
-          />
+          Deep performance optimisation of web applications, focusing on API rate limiting, edge caching, bundle compression, debouncing/throttling, SEO, and Core Web Vitals.
         </p>
       </div>
     </div>
